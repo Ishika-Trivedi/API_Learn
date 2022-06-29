@@ -1,0 +1,36 @@
+## Through APIs we will fetch, update, insert, delete our data.
+
+## Database Creation and APIs Development:-
+* Database Creation
+* Table Creation
+* APIs Development -> Database connection, request, decision, response
+* APIs Testing
+
+## We will do the development of API using PHP which is a
+server side language.
+For this we need a text editor.
+
+##Firstly, we will add database connection in API.
+Now, its time for request.
+Whatever kind of data which we send from application to the API and the operations
+are performed on that data. This data is called request.
+
+## We will use either GET[] or POST[] method for request.
+Format is $name = $_POST[];
+In brackets we give the names which we will send the data from postman during testing.
+
+## After the request, we will go for decision. For that we will write a query for inserting data.
+After writing query, we will go for the response. For that we will first give a variable result and
+store the query result.
+
+## For response, we will check the response by if-else statement.
+And then display using echo. This will only show result in string.
+We should know that the API response should always be in JSON.
+echo json_encode($response)
+
+## For API Testing, we will use postman.
+Whatever APIs we are writing, we save it in C drive only.
+In C drive, we will find xampp then htdocs and api then paste.
+
+
+
